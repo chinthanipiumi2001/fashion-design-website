@@ -43,3 +43,18 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav li{
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.nav li a{
+    color: #ffffff;
+}
