@@ -81,3 +81,18 @@ header{
     list-style: none;
     margin: 0 10px;
 }
+
+.util li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.util li a ion-icon {
+    font-size: 1.6em;
+}
+
+.util li a:hover{
+    color: var(--primary);
+}
+
