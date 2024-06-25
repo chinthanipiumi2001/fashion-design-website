@@ -126,7 +126,7 @@ header{
 
 /* Make the Shade for the images*/
 .women::before,
-.women::before,
+.men::before,
 .special::before{
     position: absolute;
     content: '';
@@ -180,7 +180,7 @@ header{
     left: 60%;
     height: 100%;
     width: 40%;
-    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
     background: var(--primary);
     transition: 1s;
     display: flex;
@@ -188,6 +188,13 @@ header{
     align-items: center;
 }
 
+#banner.left .women,
+#banner.middle .men,
+#banner.right .special {
+    width: 110%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: 1s;
+}
 
 
 
