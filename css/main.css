@@ -115,18 +115,18 @@ header{
 /* Banner Section */
 #banner{
     position: relative;
-    width: 100%;
+    width: 100;
     height: 100vh;
     padding: 0 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     overflow: hidden;
 }
-/* Make the Shade for the images */
 
+/* Make the Shade for the images*/
 .women::before,
-.men::before,
+.women::before,
 .speacial::before{
     position: absolute;
     content: '';
@@ -138,18 +138,11 @@ header{
     z-index: 100;
     transition: 0.5s;
 }
-/* Remove the shade on Hover */
+
+/* Remove the shade on Hover*/
 .women:hover::before,
 .men:hover::before,
 .speacial:hover::before{
     background: transparent;
 }
-
-.women{
-    position: absolute;
-    top: 0;
-    
-}
-
-
 
