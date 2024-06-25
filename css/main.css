@@ -127,7 +127,7 @@ header{
 /* Make the Shade for the images*/
 .women::before,
 .women::before,
-.speacial::before{
+.special::before{
     position: absolute;
     content: '';
     top: 0;
@@ -142,7 +142,56 @@ header{
 /* Remove the shade on Hover*/
 .women:hover::before,
 .men:hover::before,
-.speacial:hover::before{
+.special:hover::before {
     background: transparent;
 }
+
+.women{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background: var(--primary);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.men{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    height: 100%;
+    width: 40%;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 25% 50%, 0 0 );
+    background: var(--second);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    height: 100%;
+    width: 40%;
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    background: var(--primary);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
