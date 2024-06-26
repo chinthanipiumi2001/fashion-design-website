@@ -196,6 +196,39 @@ header{
     transition: 1s;
 }
 
+#banner.right .special{
+    left:0;
+}
+
+#banner.middle .men{
+    left: 0;
+}
+
+#banner.left .men,
+#banner.left .special{
+    left: 120%;
+}
+
+#banner.right .men,
+#banner.right .women{
+    left: -120%;
+}
+
+#banner.middle .women{
+    left: -120%;
+}
+
+#banner.middle.special{
+    left: 120%;
+}
+
+/* Banner Images /*
+
+
+
+
+
+
 
 
 
