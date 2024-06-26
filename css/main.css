@@ -222,8 +222,49 @@ header{
     left: 120%;
 }
 
-/* Banner Images /*
+/* Banner Images */
+.women img, 
+.men img,
+.special img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
 
+#banner.left .women img{
+    width: 50%;
+}
+
+#banner.middle .men img,
+#banner.right .special img{
+    left: 50%;
+    width: 50%;
+}
+
+/* Banner Switch Button */
+.switch-btn{
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 300;
+    margin-top: 40%;
+    z-index: 1000;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.switch-btn:hover{
+    transform: scale(1.2);
+}
+
+/* Banner Reset Button*/
 
 
 
