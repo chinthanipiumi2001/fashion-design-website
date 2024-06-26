@@ -265,7 +265,23 @@ header{
 }
 
 /* Banner Reset Button*/
+.reset{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    z-index: 1000;
+    transition: 0.5s;
+}
 
+.reset.active{
+    transform: rotateZ(180deg);
+}
+
+.reset ion-icon {
+    color: #ffffff;
+    font-size: 3em;
+    transition: 0.3s;
+}
 
 
 
