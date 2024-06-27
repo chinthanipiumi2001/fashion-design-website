@@ -5,4 +5,5 @@ function switchBanner(name){
         banner.className='banner';
         banner.classList.add(name);
     }
+    return;
 }
