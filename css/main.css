@@ -283,6 +283,12 @@ header{
     transition: 0.3s;
 }
 
+.reset ion-icon:hover{
+    color: var(--primary);
+}
+
+
+
 
 
 
