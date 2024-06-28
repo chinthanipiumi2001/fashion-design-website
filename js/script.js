@@ -6,5 +6,3 @@ function switchBanner(name) {
         banner.classList.add(name);
     } 
 }
-
-//Reset 
