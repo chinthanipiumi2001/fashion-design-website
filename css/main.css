@@ -113,21 +113,21 @@ header{
 }
 
 /* Banner Section */
-#banner{
+#banner {
     position: relative;
-    width: 100;
+    width: 100%;
     height: 100vh;
     padding: 0 100px;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     overflow: hidden;
 }
 
-/* Make the Shade for the images*/
+/* Make the Shade for the images */
 .women::before,
 .men::before,
-.special::before{
+.special::before {
     position: absolute;
     content: '';
     top: 0;
@@ -139,14 +139,14 @@ header{
     transition: 0.5s;
 }
 
-/* Remove the shade on Hover*/
+/* Remove the shade on Hover */
 .women:hover::before,
 .men:hover::before,
 .special:hover::before {
     background: transparent;
 }
 
-.women{
+.women {
     position: absolute;
     top: 0;
     left: 0;
@@ -160,13 +160,13 @@ header{
     align-items: center;
 }
 
-.men{
+.men {
     position: absolute;
     top: 0;
     left: 30%;
     height: 100%;
     width: 40%;
-    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 25% 50%, 0 0 );
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 25% 50%, 0 0);
     background: var(--second);
     transition: 1s;
     display: flex;
@@ -174,7 +174,7 @@ header{
     align-items: center;
 }
 
-.special{
+.special {
     position: absolute;
     top: 0;
     left: 60%;
@@ -196,36 +196,36 @@ header{
     transition: 1s;
 }
 
-#banner.right .special{
-    left:0;
+#banner.right .special {
+    left: 0;
 }
 
-#banner.middle .men{
+#banner.middle .men {
     left: 0;
 }
 
 #banner.left .men,
-#banner.left .special{
+#banner.left .special {
     left: 120%;
 }
 
 #banner.right .men,
-#banner.right .women{
+#banner.right .women {
     left: -120%;
 }
 
-#banner.middle .women{
+#banner.middle .women {
     left: -120%;
 }
 
-#banner.middle.special{
-    left: 120%;
+#banner.middle.special {
+    left: -120%;
 }
 
 /* Banner Images */
 .women img, 
 .men img,
-.special img{
+.special img {
     position: absolute;
     top: 0;
     left: 0;
@@ -236,18 +236,18 @@ header{
     transition: 0.5s;
 }
 
-#banner.left .women img{
+#banner.left .women img {
     width: 50%;
 }
 
 #banner.middle .men img,
-#banner.right .special img{
+#banner.right .special img {
     left: 50%;
     width: 50%;
 }
 
 /* Banner Switch Button */
-.switch-btn{
+.switch-btn {
     position: relative;
     text-decoration: none;
     color: #ffffff;
@@ -260,12 +260,12 @@ header{
     transform: scale(1);
 }
 
-.switch-btn:hover{
+.switch-btn:hover {
     transform: scale(1.2);
 }
 
-/* Banner Reset Button*/
-.reset{
+/* Banner Reset Button */
+.reset {
     position: absolute;
     left: 100px;
     bottom: 100px;
@@ -273,7 +273,7 @@ header{
     transition: 0.5s;
 }
 
-.reset.active{
+.reset.active {
     transform: rotateZ(180deg);
 }
 
@@ -283,7 +283,7 @@ header{
     transition: 0.3s;
 }
 
-.reset ion-icon:hover{
+.reset ion-icon:hover {
     color: var(--primary);
 }
 
