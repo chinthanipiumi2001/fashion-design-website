@@ -1,27 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-/* Genaral */
-
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   scroll-behavior: smooth; 
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-:root{
-    --primary:#ff0051;
-    --second:#3a3a3a;
-    --third:#f2f2f2;
+:root {
+    --primary: #ff0051;
+    --second: #3a3a3a;
+    --third: #f2f2f2;
 }
 
-body{
+body {
     background: #000000;
     font-family: "Roboto", sans-serif;
 }
 
 /* Header section */
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,7 +31,7 @@ header{
     z-index: 1100;
 }
 
-.logo{
+.logo {
     position: relative;
     font-size: 30px;
     color: #ffffff;
@@ -44,18 +41,18 @@ header{
     text-transform: uppercase;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
 }
 
-.nav li{
+.nav li {
     position: relative;
     list-style: none;
     margin: 0 20px;
 }
 
-.nav li a{
+.nav li a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -67,22 +64,22 @@ header{
     padding: 10px;
 }
 
-.nav li a:hover{
+.nav li a:hover {
     color: var(--primary);
 }
 
-.util{
+.util {
     display: flex;
     align-items: center;
 }
 
-.util li{
+.util li {
     position: relative;
     list-style: none;
     margin: 0 10px;
 }
 
-.util li a{
+.util li a {
     text-decoration: none;
     color: #ffffff;
     transition: 0.5s;
@@ -92,7 +89,7 @@ header{
     font-size: 1.6em;
 }
 
-.util li a:hover{
+.util li a:hover {
     color: var(--primary);
 }
 
@@ -209,16 +206,15 @@ header{
     left: 120%;
 }
 
+/* Highlighted Changes Start */
+#banner.middle .women,
+#banner.middle .special {
+    left: 120%;
+}
+/* Highlighted Changes End */
+
 #banner.right .men,
 #banner.right .women {
-    left: -120%;
-}
-
-#banner.middle .women {
-    left: -120%;
-}
-
-#banner.middle.special {
     left: -120%;
 }
 
@@ -286,15 +282,3 @@ header{
 .reset ion-icon:hover {
     color: var(--primary);
 }
-
-
-
-
-
-
-
-
-
-
-
-
