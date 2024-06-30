@@ -284,3 +284,18 @@ header {
 }
 
 /* Banner content */
+#banner .content {
+    position: absolute;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 900;
+}
+
+#banner.left .women .content{
+    
+}
