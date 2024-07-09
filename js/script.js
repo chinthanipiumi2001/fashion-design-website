@@ -20,5 +20,6 @@ function switchBanner(name) {
 function resetBanner() {
     const banner = document.querySelector('#banner');
     banner.className = 'banner';
+    toggleResetBtn();
 }
 
