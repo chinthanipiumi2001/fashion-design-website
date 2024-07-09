@@ -322,9 +322,34 @@ header {
     color: #ffffff;
     padding: 12px 20px;
     border: 1px solid #ffffff;
+    transition: 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-#banner.left .women .content{
+#banner .content a ion-icon{
+    font-size: 1.2em;
+}
+
+#banner .content a:hover{
+    background: #ffffff;
+    color: var(--primary);
+}
+
+#banner.left .women .content,
+#banner.middle .men .content,
+#banner.right .special .content{
     opacity: 1;
     visibility: visible;
+}
+
+.women .content {
+    left: 50%;
+}
+
+.men .content,
+.special .content {
+    left: 100px;
 }
