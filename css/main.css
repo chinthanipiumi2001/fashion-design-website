@@ -297,6 +297,26 @@ header {
     z-index: 900;
 }
 
+#banner .content h1{
+    color: #ffffff;
+    font-size: 4.5em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#banner .content p{
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#banner .content a{
+    
+}
+
 #banner.left .women .content{
     opacity: 1;
     visibility: visible;
