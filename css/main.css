@@ -314,7 +314,14 @@ header {
 }
 
 #banner .content a{
-    
+    position: relative;
+    width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: 1px solid #ffffff;
 }
 
 #banner.left .women .content{
