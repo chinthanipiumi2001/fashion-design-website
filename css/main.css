@@ -283,4 +283,21 @@ header {
     color: var(--primary);
 }
 
+/* Bnner Content */
 
+#banner .content{
+    position: absolute;
+    max-width: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 900;
+}
+
+#banner.left .women .content{
+    opacity: 1;
+    visibility: visible;
+}
