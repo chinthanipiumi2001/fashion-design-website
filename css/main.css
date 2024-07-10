@@ -360,3 +360,13 @@ main{
     padding: 100px 0;
     background: #ffffff;
 }
+
+/* Call Up Section */
+section.call-up {
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
