@@ -353,3 +353,10 @@ header {
 .special .content {
     left: 100px;
 }
+
+/* Main Section */
+main{
+    width: 100;
+    padding: 100px 0;
+    background: #ffffff;
+}
