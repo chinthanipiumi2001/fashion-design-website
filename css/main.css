@@ -370,3 +370,19 @@ section.call-up {
     align-items: center;
     gap: 50px;
 }
+
+.call-up-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    background: #ffffff;
+}
+
+.call-up-box ion-icon {
+    font-size: 10em;
+    color: var(--primary);
+}
