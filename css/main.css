@@ -377,7 +377,7 @@ section.call-up {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     background: #ffffff;
 }
@@ -389,5 +389,11 @@ section.call-up {
 
 .call-up-box h4{
     font-size: 1.3em;
-    
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.call-up-box p{
+    font-weight: 300;
 }
