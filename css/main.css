@@ -419,3 +419,14 @@ section.call-up {
     gap: 10px;
 }
 
+.promotion,
+.discovery{
+    position: relative;
+    width: 100%;
+    width: 70vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 50%;
+}
+
