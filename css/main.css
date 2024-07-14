@@ -409,7 +409,7 @@ section.call-up {
 }
 
 .about .left,
-.about .right{
+.about.right{
     width: 50%;
     height: 100%;
     display: flex;
@@ -417,31 +417,5 @@ section.call-up {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-}
-
-.promotion,
-.discovery {
-    position: relative;
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: start;
-    align-items: end;
-    padding: 50px;
-}
-
-.style,
-.collection {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: start;
-    align-items: end;
-    padding: 50px; 
-}
-
-.about-box{
-    overflow: hidden;
 }
 
