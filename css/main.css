@@ -409,7 +409,7 @@ section.call-up {
 }
 
 .about .left,
-.about.right{
+.about .right {
     width: 50%;
     height: 100%;
     display: flex;
@@ -431,7 +431,7 @@ section.call-up {
 }
 
 .style,
-.collection{
+.collection {
     position: relative;
     width: 100%;
     height: 50vh;
@@ -441,41 +441,19 @@ section.call-up {
     padding: 50px;
 }
 
-.about-box{
+.about-box {
     overflow: hidden;
 }
 
 .about-box img {
-    position:relative;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
     transform: scale(1);
     object-fit: cover;
     object-position: center;
     transition: 1s;
 }
 
-.about-box:hover img {
-    transform: scale(1.1);
-}
-
-/* A darker shade for the box*/
-.about-box::after {
-    position: relative;
-    content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 1;
-    z-index: 1100;
-    transition: 0.5s;
-}
-
-/* Slightly brighter on hover*/
-.about-box:hover::after{
-    background: rgba(0, 0, 0, 0.2);
-}
