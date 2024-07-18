@@ -457,3 +457,36 @@ section.call-up {
     transition: 1s;
 }
 
+.about-box:hover img {
+    transform: scale(1.1);
+}
+
+/* a darker shade for the box */
+.about-box::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+/* Slightly brighter on hover*/
+.about-box:hover::after {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.about .description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 900;
+}
+
+
+
+
