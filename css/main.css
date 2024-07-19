@@ -624,6 +624,16 @@ section.call-up {
     color: #000000;
 }
 
+.product-info .cross{
+    text-decoration: line-through;
+}
+
+.product-info .price{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--primary);
+}
+
 .product-rating{
     display: flex;
     gap: 5px;
@@ -631,4 +641,48 @@ section.call-up {
 
 .product-rating li{
     list-style: none;
+}
+
+.product-rating li ion-icon {
+    font-size: 1.2em;
+    color: var(--primary);
+}
+
+.product-item .hot{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 900;
+    width: 50px;
+    height: 30px;
+    color: #ffffff;
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-bag {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.add-to-bag ion-icon {
+    font-size: 1.6em;
+}
+
+.add-to-bag:hover {
+    background: var(--third);
+    color: var(--primary);
 }
