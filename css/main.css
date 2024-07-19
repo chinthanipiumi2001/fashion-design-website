@@ -574,4 +574,57 @@ section.call-up {
     opacity: 1;
 }
 
+.product-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.product-item{
+    position: relative;
+    width: 24%;
+    height: 450px;
+    background: #ffffff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.product-item img {
+    position: relative;
+    transform: scale(1);
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    transition: 1s;
+    transform-origin: bottom;
+}
+
+.product-item img:hover{
+    transform: scale(1.1);
+}
+
+.product-info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+}
+
+.product-info h4{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.product-info p{
+    font-weight: 200;
+    color: #000000;
+}
+
+.product-rating{
+    display: flex;
+    gap: 5px;
+}
