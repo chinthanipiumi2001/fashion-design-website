@@ -547,4 +547,31 @@ section.call-up {
     gap: 50px;
 }
 
+#product-filters li{
+    position: relative;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#product-filters li:before {
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 3px;
+    background: var(--primary);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#product-filters li:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
 
