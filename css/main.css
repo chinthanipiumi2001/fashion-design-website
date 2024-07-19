@@ -628,3 +628,7 @@ section.call-up {
     display: flex;
     gap: 5px;
 }
+
+.product-rating li{
+    list-style: none;
+}
