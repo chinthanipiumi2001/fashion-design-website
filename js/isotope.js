@@ -27,6 +27,9 @@ const on = (type, el, listener, all = false) => {
 };
 
 // Here, we need setup the isotope
+/**
+ * Portfolio isotope and filter
+ */
 window.addEventListener('load', ()=> {
     let portfolioContainer = select('.product-container');
     if (portfolioContainer) {
