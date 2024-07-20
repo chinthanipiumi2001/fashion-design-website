@@ -569,7 +569,8 @@ section.call-up {
     transition: 0.5s;
 }
 
-#product-filters li:hover:before {
+#product-filters li:hover:before,
+#product-filters li.filter-active::before {
     visibility: visible;
     opacity: 1;
 }
@@ -686,3 +687,56 @@ section.call-up {
     background: var(--third);
     color: var(--primary);
 }
+
+.loading-more a {
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    background: var(--primary);
+    padding: 10px 25px;
+    color: #ffffff;
+    font-weight: 300;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    transition: 0.3s;
+}
+
+.loading-more a:hover {
+    background: #ffffff;
+    color: var(--primary);
+}
+
+/* Newsletter signup Section */
+#newsletter {
+    position: relative;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.12);
+    background: #ffffff;
+}
+
+.newsletter-box {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.newsletter-box ion-icon {
+    font-size: 3em;
+    color: var(--primary);
+}
+
+.newsletter-box h4 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
