@@ -734,9 +734,48 @@ section.call-up {
 }
 
 .newsletter-box h4 {
-    text-transform: uppercase;
+    text-transform:uppercase;
     font-size: 1.2em;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
+#newsletter p {
+    width: 30%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+#newsletter .discount {
+    color: var(--primary);
+    font-size: 4em;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#newsletter form {
+    width: 40%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+#newsletter from input[type='text'] {
+    outline: none;
+    border: 1px solid var(--third);
+    width: 40px;
+    padding: 10px 20px;
+}
+
+#newsletter form input[type='submit'] {
+    outline: none;
+    border: 1px solid var(--primary);
+    padding: 10px 30px;
+    background: var(--primary);
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
