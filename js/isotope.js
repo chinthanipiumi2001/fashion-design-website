@@ -26,4 +26,35 @@ const on = (type, el, listener, all = false) => {
     }
 };
 
+// Here, we need setup the isotope
+window.addEventListener('load', ()=> {
+    let portfolioContainer = select('.product-container');
+    if (portfolioContainer) {
+        let portfolioIsotope = new Isotope(portfolioContainer,{
+            itemSelector: '.product-item',
+            layoutMode: 'fitRows',
+            precentPosition: true,
+            fitRows: {
+                gutter: 15,
+            },
+        });
+        let portfolioFilters = select('#product-filters li',true);
+
+        on(
+            'click',
+            '#product-filters li',
+            function (e) {
+                e.preventDefault();
+                portfolioFilters.forEach(function (el){
+                    el.calsslist.remove('filter.active');
+                });
+                this.calsslist.add('filter-active');
+                portfolioIsotope.arrange({
+                    filter:this.getAttribute('data-filter'),
+                });
+            },
+            true
+        );
+    }
+});
  
