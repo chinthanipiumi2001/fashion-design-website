@@ -777,5 +777,25 @@ section.call-up {
     color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
+}
+
+#newsletter form input[type='submit']:hover {
+background: #ffffff;
+color: var(--primary);
+}
+
+/* Contact Section */
+#contact {
+    position: relative;
+    padding: 100px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+}
+
+#contact .map {
+    width: 100%;
 }
