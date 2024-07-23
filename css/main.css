@@ -875,3 +875,34 @@ color: var(--primary);
     font-family: 'Roboto','sans-serif';
 }
 
+.contact .contact-form input {
+    padding: 10px 12px;
+    height: 45px;
+}
+
+.contact .contact-form textarea {
+    padding: 10px 12px;
+}
+
+.contact .contact-form .text-center{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .contact-form button[type='submit'] {
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 10px 25px;
+    color: #ffffff;
+    font-size: 1em;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact .contact-form button[type='submit']:hover {
+    background: #ffffff;
+    color: var(--primary);
+}
+
+/* Footer Section */
